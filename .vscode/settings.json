@@ -28,5 +28,6 @@
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
-    "npm.enableScriptExplorer": true
+    "npm.enableScriptExplorer": true,
+    "typescriptHero.imports.organizeOnSave": true
 }
