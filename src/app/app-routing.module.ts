@@ -7,6 +7,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'manager', loadChildren:'./manager/manager.module#ManagerModule' /* Eager loading children: managerModuleRoutes */ },
+  {path:'user', loadChildren:'./user/user.module#UserModule'},
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ]
