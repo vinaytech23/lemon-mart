@@ -21,7 +21,10 @@
                         "aot": true,
                         "assets": [
                             "src/favicon.ico",
-                            "src/assets"
+                            "src/assets",
+                            "src/lemon",
+                            "src/clock.svg",
+                            "src/women.svg"
 
 
                         ],
@@ -85,7 +88,10 @@
                         "karmaConfig": "karma.conf.js",
                         "assets": [
                             "src/favicon.ico",
-                            "src/assets"
+                            "src/assets",
+                            "src/lemon",
+                            "src/clock.svg",
+                            "src/women.svg"
                         ],
                         "styles": [
                             "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
