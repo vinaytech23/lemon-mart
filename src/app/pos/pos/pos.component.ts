@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core'
 
 @Component({
-  selector: 'app-logout',
+  selector: 'app-pos',
   template: `
     <p>
-      logout works!
+      pos works!
     </p>
   `,
   styles: [],
 })
-export class LogoutComponent implements OnInit {
+export class PosComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
