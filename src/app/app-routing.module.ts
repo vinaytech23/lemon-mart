@@ -13,6 +13,7 @@ const routes: Routes = [
   },
   { path: 'user', loadChildren: './user/user.module#UserModule' },
   { path: 'pos', loadChildren: './pos/pos.module#PosModule' },
+  { path: 'inventory', loadChildren: './inventory/inventory.module#InventoryModule' },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ]
